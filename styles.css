@@ -405,11 +405,10 @@ section {
 
 .skill-level {
   height: 100%;
-  background: #2563eb; /* choose any solid color */
+  background: linear-gradient(135deg, #2563eb, #0ea5e9);
   border-radius: 20px;
   animation: fillBar 2.5s ease-in-out forwards;
 }
-
 
 /* Animation */
 @keyframes fillBar {
